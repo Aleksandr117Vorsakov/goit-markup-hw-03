@@ -77,7 +77,6 @@ p:last-child{
     line-height:1.2;
     letter-spacing: 0.03em;
     align-items: center;
-    margin-top: 60px;
     margin-bottom: 20px;
 
     }
@@ -197,6 +196,7 @@ margin-left: auto;
     line-height: 1.15;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 
 }
 .details-text{
@@ -211,6 +211,7 @@ margin-left: auto;
 }
 .skills-item{
     margin-right: 30px;
+    width: 270px;
 }
 .skills-item:last-child{
     margin: 0;
@@ -222,6 +223,7 @@ margin-left: auto;
     line-height: 1.15;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 
 }
 .punctuality-text{
@@ -237,6 +239,7 @@ margin-left: auto;
     line-height: 1.15;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 
 }
 .planning-text{
@@ -252,6 +255,7 @@ margin-left: auto;
     line-height: 1.15;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 
 }
 .technologies-text{
@@ -267,13 +271,14 @@ margin-left: auto;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: -94px;
-    margin-bottom: 50px;
+    margin: 0 auto;
+}
+.section.example{
+    padding-top: 0;
 }
 .picture{
     display: flex;
+    margin-top: 50px;
 }
 .picture-item{
     margin-right: 30px;  
@@ -291,9 +296,7 @@ margin-left: auto;
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-left: 460px;
-    margin-right: 460px;
-    margin-bottom: 50px;
+    margin: 0 auto;
 }
 .team-demyanenko{
     color:var(--heading-main-color);
@@ -302,6 +305,7 @@ margin-left: auto;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 .team-demyanenko-position{
     color:var(--primary-text-color);
@@ -317,6 +321,7 @@ margin-left: auto;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 .team-repin-position{
     color:var(--primary-text-color);
@@ -332,6 +337,7 @@ margin-left: auto;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 .team-tarasov-position{
     color:var(--primary-text-color);
@@ -347,6 +353,7 @@ margin-left: auto;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 .team-ermakov-position{
     color:var(--primary-text-color);
@@ -357,6 +364,7 @@ margin-left: auto;
 }
 .staff{
     display: flex;
+    margin-top: 50px;
 }
 .staff-item{
     margin-right: 30px; 
@@ -366,9 +374,16 @@ margin-left: auto;
 .staff-item:last-child{
     margin-right: 0;
 }
+.team-work{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
 /* footer */
 .footer{
     background:var(--header-footer-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-box{
     display: flex;
@@ -398,7 +413,6 @@ margin-left: auto;
 }
 .footer-contact-item:last-child{
     margin:0;
-    margin-bottom: 60px;
 }
 /* portfolio */
 .portfolio{
