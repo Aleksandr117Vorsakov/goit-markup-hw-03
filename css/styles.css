@@ -36,9 +36,9 @@ p:last-child{
     margin-bottom: 0;
 }
 .container{
-    width: 1600px;
-    padding-left: 200px;
-    padding-right: 200px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 
@@ -154,6 +154,8 @@ margin-left: auto;
 /* hero */
 .hero{
     background:var(--header-footer-background-color);
+    padding-bottom: 200px;
+    padding-top: 200px;
 }
 .hero-title{
     color:var(--main-background-color);
@@ -163,10 +165,11 @@ margin-left: auto;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    padding-left: 252px;
-    padding-right: 252px;
-    padding-top: 106px;
+    width: 696px;
     margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 .hero-button{
     color: var(--main-background-color);
@@ -178,13 +181,14 @@ margin-left: auto;
     line-height: 1.8;
     letter-spacing: 0.06em;
     cursor: pointer;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-bottom: 106px;
-    border-radius: 4px;
-    padding-left: 25px;
-    padding-right: 25px;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    
+    
 }
+
 
 /* qualities and skills */
 .details-title{
